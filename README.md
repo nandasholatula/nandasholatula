@@ -1,37 +1,22 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
-<code>
-  class About extends Me {
-  public $name;
-  public $address;
-
-  public function __construct() {
-    $this->name = "Nanda Sholatul Akbar";
-    $this->address = "Situsari,Kab. Bogor, Jawa Barat, Indonesia";
-  
+```javascript
+class About extends Me {
+  constructor() {
+    this.name = "Ardhi Putra Pradana";
+    this.pronouns = "He" | "Him";
+    this.address = "Semarang, Jawa Tengah, Indonesia";
+    this.school = "SMK N 7 Semarang";
   }
 
-  public function getDescriptions(){
-    return "Hi, my name is {$this->name}, I really enjoy writing code because it's like playing a game.";
+  function getDescriptions(){
+    return `Hi, my name is ${this.name}, currently I am a student at ${this.school}. I really enjoy when writing code, because it's like playing a game`;
   }
 
-  public function getFutureGoal(){
+  function getFutureGoal(){
     return "To become a programmer";
   }
 }
-</code>
-<!--
-**nandasholatula/nandasholatula** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
